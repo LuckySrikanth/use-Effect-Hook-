@@ -36,12 +36,13 @@ function App() {
     setToStop(false)
   }
 
-  return (
+   return (
     <div className="App">
-      <h1>Timer</h1>
-      <h1>{timer}</h1>
+      <h1 className='timer'>Timer</h1>
+      <h1 className='time'>{timer}</h1>
       <button onClick={start}>Start</button>
       <button onClick={StopTimer}>Stop</button>
+      <button onClick={SetToZero}>Set To Zero</button>
     </div>
   )
 }
