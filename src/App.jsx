@@ -35,6 +35,11 @@ function App() {
   const StopTimer = () => {
     setToStop(false)
   }
+  
+   const SetToZero = () => {
+    setToStop(false)
+    setTimer(0)
+  } 
 
    return (
     <div className="App">
